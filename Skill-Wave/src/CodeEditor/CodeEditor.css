@@ -1,0 +1,56 @@
+.code-editor-container {
+    background-color: #0f0a19;
+    color: gray;
+  }
+  
+  .editor-content {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .pdf-section {
+    width: 50%;
+    height: 106vh;
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  .toggle-pdf-btn {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: #1e1033;
+    color: white;
+    border: 1px solid #3d2a5f;
+    cursor: pointer;
+  }
+  
+  .toggle-pdf-btn:hover {
+    background-color: #2d1a4a;
+  }
+  
+  .pdf-viewer {
+    width: 100%;
+    height: calc(100% - 48px);
+    border: none;
+  }
+  
+  .code-section {
+    width: 70%;
+  }
+  
+  .editor-output-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 75vh;
+  }
+  
+  .editor-section {
+    flex: 1;
+  }
+  
+  .output-section {
+    height: 35vh;
+  }

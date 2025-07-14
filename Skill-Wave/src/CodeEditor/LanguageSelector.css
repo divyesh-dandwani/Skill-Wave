@@ -1,0 +1,59 @@
+.language-selector {
+    margin-left: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .language-label {
+    margin-bottom: 8px;
+    font-size: 1.125rem;
+    text-align: left;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #1e1033;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid #3d2a5f;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle:hover {
+    background-color: #2d1a4a;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: #110c1b;
+    min-width: 200px;
+    z-index: 1;
+    border: 1px solid #3d2a5f;
+    border-radius: 4px;
+  }
+  
+  .dropdown-item {
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #1a1230;
+    color: #4f9af0;
+  }
+  
+  .active {
+    background-color: #1a1230;
+    color: #4f9af0;
+  }
+  
+  .version {
+    color: #666;
+    font-size: 0.875rem;
+    margin-left: 4px;
+  }
